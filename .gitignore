@@ -1,0 +1,11 @@
+*.pyc
+*.pickle
+*.pth
+log*
+__pycache__
+slurm*
+.vscode
+test*
+checkpoints/
+*debug.py
+*.zip
