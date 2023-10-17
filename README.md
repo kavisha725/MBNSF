@@ -1,10 +1,10 @@
 # MBNSF
 
-This repository is the official open-source implementation of the paper *MBNSF*: 
+This repository is the official open-source implementation of the paper *MBNSF* - 3DV'2024: 
 
 > <b>Multi-Body Neural Scene Flow</b> <br>
 > [Kavisha Vidanapathirana](https://kavisha725.github.io/), [Shin-Fang Ch'ng](https://scholar.google.com/citations?user=0O8DYvQAAAAJ&hl=en), [Xueqian Li](https://lilac-lee.github.io/), [Simon Lucey](https://scholar.google.com.au/citations?user=vmAe35UAAAAJ&hl=en)<br>
-> International Conference on 3D Vision 2024 [arXiv]()
+> International Conference on 3D Vision 2024 [arXiv](https://arxiv.org/abs/2310.10301)
 
 This repository contains the code for:
 - Evaluation of 3D scene flow and 4D trajectory estimation (via forward-Euler integration) on the Argoverse dataset using MBNSF (Ours) and [NSFP - NeurIPS'2021](https://github.com/Lilac-Lee/Neural_Scene_Flow_Prior) (Tab. 1 and 2 in the paper).
@@ -139,7 +139,7 @@ If you find this work useful in your research, please cite:
 @article{vidanapathirana2023mbnsf,
   title={Multi-Body Neural Scene Flow},
   author={Vidanapathirana, Kavisha and Chng, Shin-Fang and Li, Xueqian and Lucey, Simon},
-  journal={arXiv preprint arXiv:},
+  journal={arXiv preprint arXiv:2310.10301},
   year={2023}
 }
 ```
