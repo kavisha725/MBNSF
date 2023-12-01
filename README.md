@@ -1,6 +1,6 @@
 # MBNSF
 
-This repository is the official open-source implementation of the paper *MBNSF* - 3DV'2024: 
+This repository is the official open-source implementation of the paper *MBNSF* - 3DV'2024 (oral): 
 
 > <b>Multi-Body Neural Scene Flow</b> <br>
 > [Kavisha Vidanapathirana](https://kavisha725.github.io/), [Shin-Fang Ch'ng](https://scholar.google.com/citations?user=0O8DYvQAAAAJ&hl=en), [Xueqian Li](https://lilac-lee.github.io/), [Simon Lucey](https://scholar.google.com.au/citations?user=vmAe35UAAAAJ&hl=en)<br>
@@ -9,7 +9,7 @@ This repository is the official open-source implementation of the paper *MBNSF* 
 This repository contains the code for:
 - Evaluation of 3D scene flow and 4D trajectory estimation (via forward-Euler integration) on the Argoverse dataset using MBNSF (Ours) and [NSFP - NeurIPS'2021](https://github.com/Lilac-Lee/Neural_Scene_Flow_Prior) (Tab. 1 and 2 in the paper).
 - Our implementation of [NSFP++ - ECCV'2022](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136980416.pdf) (Tab. 4 in the paper).
-- Our implementation of [NTP - CVPR'2022](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Neural_Prior_for_Trajectory_Estimation_CVPR_2022_paper.pdf) (Tab. 2 in the paper).
+- Our implementation of [NTP - CVPR'2022](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Neural_Prior_for_Trajectory_Estimation_CVPR_2022_paper.pdf) and MBNSF (ours) for direct 4D trajectory prediction (Tab. 2 in the paper).
 
 
 ## Method overview
@@ -65,7 +65,13 @@ This repository provides evaluation scripts for the Argoverse dataset.
 
   Our test set for Argoverse consists of 18 sequences with 25 consecutive frames for evaluating long-term trajectories (which also results in 450 pairs for scene flow evaluation)
 
-  - Download the dataset from [here](https://drive.google.com/file/d/1YFpopuyqe52qo85U8HMmJ9cTR3WHkJFT/view?usp=sharing) (~1.5 GB).
+  - Download the Argoverse test set from [here](https://drive.google.com/file/d/1YFpopuyqe52qo85U8HMmJ9cTR3WHkJFT/view?usp=sharing) (~1.5 GB).
+  - (Optional) The code for preparing this test set is provided in ```utils/get_gt_traj_argoverse.py```.
+
+  For Waymo, we use the same test set as provided in [FNSF](https://github.com/Lilac-Lee/FastNSF). 
+
+  - Download the Waymo test set from [here](https://github.com/Lilac-Lee/FastNSF).
+  - (Optional) Instructions for preparing this test set are provided [here](https://github.com/Lilac-Lee/FastNSF/blob/main/utils/WAYMO_OPEN_README.md).
 
 </details>
 
@@ -127,7 +133,7 @@ This section re-creates the results of Tab. 1 and Tab. 2 in our paper on the Arg
 
 <br />
 
-![](./docs/mbnsf_main_fig_draft.png)
+![](./docs/quali_viz.png)
 
 <br />
 
