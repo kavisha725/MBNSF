@@ -68,6 +68,11 @@ This repository provides evaluation scripts for the Argoverse dataset.
   - Download the Argoverse test set from [here](https://drive.google.com/file/d/1YFpopuyqe52qo85U8HMmJ9cTR3WHkJFT/view?usp=sharing) (~1.5 GB).
   - (Optional) The code for preparing this test set is provided in ```utils/get_gt_traj_argoverse.py```.
 
+</details>
+
+<details>
+  <summary><b> For the Waymo test set:</b></summary><br/>
+
   For Waymo, we use the same test set as provided in [FNSF](https://github.com/Lilac-Lee/FastNSF). 
 
   - Download the Waymo test set from [here](https://github.com/Lilac-Lee/FastNSF).
