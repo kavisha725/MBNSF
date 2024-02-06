@@ -9,7 +9,7 @@ This repository is the official open-source implementation of the paper *MBNSF* 
 This repository contains the code for:
 - Evaluation of 3D scene flow and 4D trajectory estimation (via forward-Euler integration) on the Argoverse dataset using MBNSF (Ours) and [NSFP - NeurIPS'2021](https://github.com/Lilac-Lee/Neural_Scene_Flow_Prior) (Tab. 1 and 2 in the paper).
 - Our implementation of [NSFP++ - ECCV'2022](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136980416.pdf) (Tab. 4 in the paper).
-- Our implementation of [NTP - CVPR'2022](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Neural_Prior_for_Trajectory_Estimation_CVPR_2022_paper.pdf) and MBNSF (ours) for direct 4D trajectory prediction (Tab. 2 in the paper).
+- Our implementation of [NTP - CVPR'2022](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Neural_Prior_for_Trajectory_Estimation_CVPR_2022_paper.pdf) and MBNT (ours) for direct 4D trajectory prediction (Tab. 2 in the paper).
 
 
 ## Method overview
@@ -147,11 +147,12 @@ This section re-creates the results of Tab. 1 and Tab. 2 in our paper on the Arg
 If you find this work useful in your research, please cite:
 
 ```
-@article{vidanapathirana2023mbnsf,
+@inproceedings{vidanapathirana2023mbnsf,
   title={Multi-Body Neural Scene Flow},
   author={Vidanapathirana, Kavisha and Chng, Shin-Fang and Li, Xueqian and Lucey, Simon},
-  journal={arXiv preprint arXiv:2310.10301},
-  year={2023}
+  booktitle={2024 International Conference on 3D Vision (3DV)},
+  year={2024},
+  organization={IEEE}
 }
 ```
 
