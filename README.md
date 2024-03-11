@@ -7,9 +7,9 @@ This repository is the official open-source implementation of the paper *MBNSF* 
 > International Conference on 3D Vision 2024 [arXiv](https://arxiv.org/abs/2310.10301)
 
 This repository contains the code for:
-- Evaluation of 3D scene flow and 4D trajectory estimation (via forward-Euler integration) on the Argoverse dataset using MBNSF (Ours) and [NSFP - NeurIPS'2021](https://github.com/Lilac-Lee/Neural_Scene_Flow_Prior) (Tab. 1 and 2 in the paper).
+- Evaluation of 3D scene flow and 4D trajectory estimation (via forward-Euler integration) on the Argoverse dataset using [MBNSF (Ours)](https://github.com/kavisha725/MBNSF/blob/main/scene_flow_estimation/mbnsf.py) and [NSFP - NeurIPS'2021](https://github.com/Lilac-Lee/Neural_Scene_Flow_Prior) (Tab. 1 and 2 in the paper).
 - Our implementation of [NSFP++ - ECCV'2022](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136980416.pdf) (Tab. 4 in the paper).
-- Our implementation of [NTP - CVPR'2022](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Neural_Prior_for_Trajectory_Estimation_CVPR_2022_paper.pdf) and MBNT (ours) for direct 4D trajectory prediction (Tab. 2 in the paper).
+- Our implementation of [NTP - CVPR'2022](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Neural_Prior_for_Trajectory_Estimation_CVPR_2022_paper.pdf) and [MBNT (ours)](https://github.com/kavisha725/MBNSF/blob/main/trajectory_estimation/mbnt.py) for direct 4D trajectory prediction (Tab. 2 in the paper).
 
 
 ## Method overview
